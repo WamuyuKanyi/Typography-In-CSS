@@ -1,0 +1,35 @@
+
+/* line height
+letter spacing
+word spacing
+text transform
+text decorating
+ */
+
+/* line height- is going to control how the lines have space between them */
+/* text transform- uppercase, capitalize, lowercase   */
+/* text decorating */
+a{
+ font-size: 40px;
+ text-decoration: none;
+ /* text decoration none implies that the link will be plain ie in this casde there will be no underline in the word GOOGLE */
+}
+ h1{
+  text-transform: lowercase;
+ text-decoration: line-through;
+ }
+
+.one{
+ line-height: 1.5em ;
+ text-decoration: overline;
+ line-height: 5rem;
+}
+/* letter spacing- spacing between each letter */
+.two{
+ letter-spacing: 5px;
+}
+/* word spacing- spacing between words */
+.three{
+ word-spacing: 20px;
+ text-decoration: underline;
+}
